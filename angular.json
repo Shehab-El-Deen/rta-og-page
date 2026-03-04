@@ -40,7 +40,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "style": "css"
         }
       },
       "root": "projects/elements",
@@ -56,7 +56,7 @@
               "zone.js"
             ],
             "tsConfig": "projects/elements/tsconfig.app.json",
-            "inlineStyleLanguage": "scss",
+            "inlineStyleLanguage": "css",
             "assets": [
               {
                 "glob": "**/*",
@@ -65,7 +65,7 @@
               }
             ],
             "styles": [
-              "projects/elements/src/styles.scss"
+              "projects/elements/src/styles.css"
             ],
             "scripts": [],
             "main": "projects/elements/src/main.ts"
@@ -117,7 +117,7 @@
               "zone.js/testing"
             ],
             "tsConfig": "projects/elements/tsconfig.spec.json",
-            "inlineStyleLanguage": "scss",
+            "inlineStyleLanguage": "css",
             "assets": [
               {
                 "glob": "**/*",
@@ -125,9 +125,14 @@
               }
             ],
             "styles": [
-              "projects/elements/src/styles.scss"
+              "projects/elements/src/styles.css",
+                "node_modules/leaflet/dist/leaflet.css"
+
             ],
-            "scripts": []
+            "scripts": [
+                "node_modules/leaflet/dist/leaflet.js"
+
+            ]
           }
         }
       }

@@ -13,6 +13,17 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 
+
+.alert-title-input{
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  /* text-transform: uppercase; */
+  margin-bottom: 6px;
+  margin-right: 10px;
+}
+
 .alert-header-card {
   background: #363B9C;
   border: none;

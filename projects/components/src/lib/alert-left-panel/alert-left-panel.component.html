@@ -6,7 +6,10 @@
       <h2 class="card-title">Alert Details</h2>
     </div>
     <div class="alert-info-row">
+      <div>
+      <label for="alert-title-input" class="alert-title-input">Alert Title:</label>
       <span class="alert-title">{{ alertTitle }}</span>
+      </div>
       <span class="alert-timestamp">{{ timestamp | date:'short' }}</span>
     </div>
   </div>
